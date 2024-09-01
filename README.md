@@ -1,5 +1,5 @@
 
-# Movie Website
+# MovieVerse
 
 A React application built with Vite and using the TMDb (The Movie Database) API to display movie information. This project is designed to practice and showcase frontend development skills with React, including state management, search functionality, pagination, and user-specific features.
 
