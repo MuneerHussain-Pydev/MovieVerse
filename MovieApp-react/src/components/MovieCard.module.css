@@ -1,0 +1,47 @@
+
+
+.iconImage{
+    width: 15px;
+    height: 15px;
+}
+.cardBox{
+    background-color: rgb(21, 21, 21);
+    color: white;
+    margin-bottom: 20px;
+    transition: all 0.2s ease-in-out;
+    flex: 0 0 auto;
+    box-shadow: 5px 3px 8px rgb(0, 0, 0);
+}
+.cardBox:hover{
+    cursor: pointer;
+    transform: scale(1.05,1.05);
+}
+
+.popularity{
+    margin-top: -11px;
+}
+.rating{
+    margin-top: -11px;
+    margin-bottom: -3px;
+}
+
+.spanText{
+    font-size: small;
+    margin-left: 5px;
+}
+.genres{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+}
+.badgeIcon{
+    height: 100%;
+    font-size: 0.6rem;
+    margin-right: 5px;
+    margin-top: 8px;
+}
+.popularityAndRating{
+    display: flex;
+    justify-content: space-between;
+}

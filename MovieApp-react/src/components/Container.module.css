@@ -1,0 +1,10 @@
+.containerBox{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* background-color: white; */
+    margin: 20px;
+    padding: 10px;
+    color: white;
+}

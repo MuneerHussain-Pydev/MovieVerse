@@ -1,0 +1,7 @@
+.listItems{
+    color: #9B9B9B;
+    text-align: left;
+}
+.listItems:hover{
+    color: #ffc00a;;
+}

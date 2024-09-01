@@ -1,0 +1,49 @@
+.movieTitle{
+    color: #ffc00a;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.description{
+    color: rgb(193, 193, 193);  
+    text-align: justify; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 5px;
+    font-size: 1.3vw;
+}
+
+.genresDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+h6{
+    margin-right: 10px;
+    color: white;
+}
+.badgeIcon{
+    height: 100%;
+    font-size: 0.6rem;
+    margin-right: 5px;
+    margin-top: 3px;
+}
+
+.languages, .duration, .productionCompanies{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.watchListBtn{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.ratingDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 5px;
+}
+.releaseDate{
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+}

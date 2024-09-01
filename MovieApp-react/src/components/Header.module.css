@@ -1,0 +1,9 @@
+.btns{
+    max-height: 10%;
+    text-wrap: nowrap;
+    font-weight: 400;
+}
+
+.movieSearchBar::placeholder{
+    color: rgb(141, 141, 141);
+}
