@@ -26,7 +26,7 @@ const SearchMovies = () => {
   useEffect(() => {
     setFetching(true);
     const fetchData = async () => {
-      const API_KEY = "88567e47a1ee027ceda9610d04cdf5b3";
+      const API_KEY = import.meta.env.VITE_API_KEY;
       const searchRes = await axios.get(
         `https://api.themoviedb.org/3/search/movie${query}&api_key=${API_KEY}&${page}`
       );

@@ -36,7 +36,7 @@ const GenreMovies = () => {
 
       const fetchData = async () => {
         try {
-          const API_KEY = "88567e47a1ee027ceda9610d04cdf5b3";
+          const API_KEY = import.meta.env.VITE_API_KEY;
           const genreMoviesRes = await axios.get(
             `https://api.themoviedb.org/3/discover/movie?api_key=${API_KEY}&with_genres=${genreID}&page=${pageNo}`
           );

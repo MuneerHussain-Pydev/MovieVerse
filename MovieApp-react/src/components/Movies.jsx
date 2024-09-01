@@ -30,7 +30,7 @@ const Movies = () => {
       window.scrollTo(0, 0);
       const fetchData = async () => {
         setFetching(true);
-        const API_KEY = "88567e47a1ee027ceda9610d04cdf5b3";
+        const API_KEY = import.meta.env.VITE_API_KEY;
         const moviesRes = await axios.get(
           `https://api.themoviedb.org/3/movie/${category}?api_key=${API_KEY}&page=${page}`
         );
